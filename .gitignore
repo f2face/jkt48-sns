@@ -1,0 +1,8 @@
+# Ignore files or directories
+/node_modules
+/dist
+/lib
+/tests
+
+# Keep files or directories
+!.gitkeep
