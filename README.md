@@ -18,7 +18,7 @@ JKT48 members and officials account list.
 pnpm i jkt48-sns
 ```
 
-## Example Usage
+## Example
 
 ```javascript
 import { membersInstagram, officialsInstagram } from 'jkt48-sns';
