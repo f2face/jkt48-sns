@@ -5,7 +5,7 @@ type TiktokAccount = {
     username: string;
 };
 
-type ActiveOfficials = Exclude<Officials, 'jkt48-cs' | 'jkt48-merch'>;
+type ActiveOfficials = Extract<Officials, 'jkt48'>;
 
 export const officialsTiktok: Record<
     ActiveOfficials,
