@@ -32,4 +32,14 @@ const allInstagram = Object.values({
     ...officialsInstagram,
 });
 console.log(allInstagram);
+/*
+[
+  { id: '14818786906', username: 'jkt48.adel' },     
+  ...
+  { id: '4775538769', username: 'jkt48mrch' }
+]
+*/
+
+// Or get data for specific member
+console.log(membersInstagram.fiony); // { id: '14997520514', username: 'jkt48.fiony' }
 ```
