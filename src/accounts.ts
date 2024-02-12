@@ -13,7 +13,6 @@ export const members = [
     // Members
     'adel',
     'amanda',
-    'ashel',
     'callie',
     'christy',
     'eli',

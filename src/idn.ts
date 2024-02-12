@@ -57,13 +57,6 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.08vLei7g32Nv.m3u8',
     },
-    ashel: {
-        username: 'jkt48_ashel',
-        uuid: 'cd6e6f40-0319-46d6-93f9-4ddccb896543',
-        name: 'Ashel',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.n6b4LL65GHiq.m3u8',
-    },
     callie: {
         username: 'jkt48_callie',
         uuid: '0609625b-63dc-4e08-bd4b-4dfe124220ba',
