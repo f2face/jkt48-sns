@@ -120,7 +120,8 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_gracia',
         uuid: 'ffbdaf60-9c8c-4897-82ef-fc3e7f6deb9c',
         name: 'Gracia',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.jnOMRcM1CNz3.m3u8',
     },
     indah: {
         username: 'jkt48_indah',
