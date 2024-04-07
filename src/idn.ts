@@ -8,26 +8,7 @@ type IdnAccount = {
 };
 
 type ActiveOfficials = Extract<Officials, 'jkt48'>;
-type ActiveMembers = Exclude<
-    Members,
-    | 'aralie'
-    | 'delynn'
-    | 'erine'
-    | 'fritzy'
-    | 'kimmy'
-    | 'lana'
-    | 'levi'
-    | 'lily'
-    | 'moreen'
-    | 'nachia'
-    | 'nala'
-    | 'nayla'
-    | 'oline'
-    | 'regie'
-    | 'ribka'
-    | 'shasa'
-    | 'trisha'
->;
+type ActiveMembers = Members;
 
 export const officialsIdn: Record<ActiveOfficials, Readonly<IdnAccount>> = {
     //#region Official
@@ -319,109 +300,107 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
     //#endregion
 
     //#region Gen 12
-    /* 
     aralie: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_aralie',
+        uuid: 'f001ba66-3c51-4849-9afa-13cf74eb1571',
+        name: 'Aralie',
         defaultStreamUrl: undefined,
     },
     delynn: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_delynn',
+        uuid: '266ef38a-da00-4d13-ba77-f94da68599ee',
+        name: 'Delynn',
         defaultStreamUrl: undefined,
     },
     erine: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_erine',
+        uuid: 'b0e628c8-0b0a-40c7-aa6a-a1c7660c25ce',
+        name: 'Erine',
         defaultStreamUrl: undefined,
     },
     fritzy: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_fritzy',
+        uuid: '717109e0-a064-4f15-8187-5c4d46e56a58',
+        name: 'Fritzy',
         defaultStreamUrl: undefined,
     },
     kimmy: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_kimmy',
+        uuid: '52c5c190-3611-4def-866f-76c32c0b837e',
+        name: 'Kimmy',
         defaultStreamUrl: undefined,
     },
     lana: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_lana',
+        uuid: 'e2af7271-2598-4ee8-8760-68043e671e6d',
+        name: 'Lana',
         defaultStreamUrl: undefined,
     },
     levi: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_levi',
+        uuid: '35d8f1d5-fd07-4109-9ec5-d202f4baf3c1',
+        name: 'Levi',
         defaultStreamUrl: undefined,
     },
     lily: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_lily',
+        uuid: 'e25cfed0-757c-424a-9b6e-85d4ef5b5192',
+        name: 'Lily',
         defaultStreamUrl: undefined,
     },
     moreen: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_moreen',
+        uuid: '3c9d4708-d690-40eb-b4e9-d2caf7a7476b',
+        name: 'Moreen',
         defaultStreamUrl: undefined,
     },
     nachia: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_nachia',
+        uuid: '21a420b0-dd01-4daa-b185-b9020f8bf69d',
+        name: 'Nachia',
         defaultStreamUrl: undefined,
     },
     nala: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_nala',
+        uuid: '8fc7ad64-f7be-492b-97b6-2dae3378dfe2',
+        name: 'Nala',
         defaultStreamUrl: undefined,
     },
     nayla: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_nayla',
+        uuid: 'e243be19-74b7-435b-8e19-13fc669e0224',
+        name: 'Nayla',
         defaultStreamUrl: undefined,
     },
     oline: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_oline',
+        uuid: 'a2b5d818-475d-44ce-af52-e99526482aaf',
+        name: 'Oline',
         defaultStreamUrl: undefined,
     },
     regie: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_regie',
+        uuid: '29c6f427-a95f-4ba1-92bf-cb5f4a2b3b2d',
+        name: 'Regie',
         defaultStreamUrl: undefined,
     },
     ribka: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_ribka',
+        uuid: '3cbe26d9-ff3f-4985-bbe1-c4403908124a',
+        name: 'Ribka',
         defaultStreamUrl: undefined,
     },
     shasa: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_shasa',
+        uuid: 'ec457dc0-b752-42c6-b812-5dd6d8d32715',
+        name: 'Shasa',
         defaultStreamUrl: undefined,
     },
     trisha: {
-        username: '',
-        uuid: '',
-        name: '',
+        username: 'jkt48_trisha',
+        uuid: '92d66abb-0171-4a2b-a30d-37ad58359248',
+        name: 'Trisha',
         defaultStreamUrl: undefined,
     },
-    */
     //#endregion
 } as const;

@@ -7,26 +7,7 @@ type ShowroomAccount = {
 };
 
 type ActiveOfficials = Extract<Officials, 'jkt48'>;
-type ActiveMembers = Exclude<
-    Members,
-    | 'aralie'
-    | 'delynn'
-    | 'erine'
-    | 'fritzy'
-    | 'kimmy'
-    | 'lana'
-    | 'levi'
-    | 'lily'
-    | 'moreen'
-    | 'nachia'
-    | 'nala'
-    | 'nayla'
-    | 'oline'
-    | 'regie'
-    | 'ribka'
-    | 'shasa'
-    | 'trisha'
->;
+type ActiveMembers = Members;
 
 export const officialsShowroom: Record<
     ActiveOfficials,
@@ -247,24 +228,90 @@ export const membersShowroom: Record<
     //#endregion
 
     //#region Gen 12
-    /* 
-    aralie: { roomId: 0, roomKey: '', roomName: '' },
-    delynn: { roomId: 0, roomKey: '', roomName: '' },
-    erine: { roomId: 0, roomKey: '', roomName: '' },
-    fritzy: { roomId: 0, roomKey: '', roomName: '' },
-    kimmy: { roomId: 0, roomKey: '', roomName: '' },
-    lana: { roomId: 0, roomKey: '', roomName: '' },
-    levi: { roomId: 0, roomKey: '', roomName: '' },
-    lily: { roomId: 0, roomKey: '', roomName: '' },
-    moreen: { roomId: 0, roomKey: '', roomName: '' },
-    nachia: { roomId: 0, roomKey: '', roomName: '' },
-    nala: { roomId: 0, roomKey: '', roomName: '' },
-    nayla: { roomId: 0, roomKey: '', roomName: '' },
-    oline: { roomId: 0, roomKey: '', roomName: '' },
-    regie: { roomId: 0, roomKey: '', roomName: '' },
-    ribka: { roomId: 0, roomKey: '', roomName: '' },
-    shasa: { roomId: 0, roomKey: '', roomName: '' },
-    trisha: { roomId: 0, roomKey: '', roomName: '' },
-    */
+    aralie: {
+        roomId: 509985,
+        roomKey: 'JKT48_Aralie',
+        roomName: 'Aralie / アラリー（JKT48）',
+    },
+    delynn: {
+        roomId: 509992,
+        roomKey: 'JKT48_Delynn',
+        roomName: 'Delynn / デリンヌ（JKT48）',
+    },
+    erine: {
+        roomId: 510000,
+        roomKey: 'JKT48_Erine',
+        roomName: 'Erine / エリン（JKT48）',
+    },
+    fritzy: {
+        roomId: 510011,
+        roomKey: 'JKT48_Fritzy',
+        roomName: 'Fritzy / フリッツィー（JKT48）',
+    },
+    kimmy: {
+        roomId: 510073,
+        roomKey: 'JKT48_Kimmy',
+        roomName: 'Kimmy / キミー（JKT48）',
+    },
+    lana: {
+        roomId: 509997,
+        roomKey: 'JKT48_Lana',
+        roomName: 'Lana / ラナ（JKT48）',
+    },
+    levi: {
+        roomId: 510016,
+        roomKey: 'JKT48_Levi',
+        roomName: 'Levi / レヴィ（JKT48）',
+    },
+    lily: {
+        roomId: 510012,
+        roomKey: 'JKT48_Lily',
+        roomName: 'Lily / リリー（JKT48）',
+    },
+    moreen: {
+        roomId: 510014,
+        roomKey: 'JKT48_Moreen',
+        roomName: 'Moreen / モリーン（JKT48）',
+    },
+    nachia: {
+        roomId: 510065,
+        roomKey: 'JKT48_Nachia',
+        roomName: 'Nachia / ナチア（JKT48）',
+    },
+    nala: {
+        roomId: 510071,
+        roomKey: 'JKT48_Nala',
+        roomName: 'Nala / ナラ（JKT48）',
+    },
+    nayla: {
+        roomId: 510064,
+        roomKey: 'JKT48_Nayla',
+        roomName: 'Nayla / ナイラ（JKT48）',
+    },
+    oline: {
+        roomId: 510067,
+        roomKey: 'JKT48_OlineM',
+        roomName: 'Oline / オリヌ（JKT48）',
+    },
+    regie: {
+        roomId: 510068,
+        roomKey: 'JKT48_Regie',
+        roomName: 'Regie / レギー（JKT48）',
+    },
+    ribka: {
+        roomId: 510070,
+        roomKey: 'JKT48_Ribka',
+        roomName: 'Ribka / リブカ（JKT48）',
+    },
+    shasa: {
+        roomId: 509995,
+        roomKey: 'JKT48_Shasa',
+        roomName: 'Shasa / シャサ（JKT48）',
+    },
+    trisha: {
+        roomId: 510013,
+        roomKey: 'JKT48_Trisha',
+        roomName: 'Trisha / トリシャ（JKT48）',
+    },
     //#endregion
 } as const;
