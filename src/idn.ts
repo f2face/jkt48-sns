@@ -318,7 +318,8 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_erine',
         uuid: 'b0e628c8-0b0a-40c7-aa6a-a1c7660c25ce',
         name: 'Erine',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.0nMPtjEVo1Ds.m3u8',
     },
     fritzy: {
         username: 'jkt48_fritzy',
