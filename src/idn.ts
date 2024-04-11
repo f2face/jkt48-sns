@@ -339,7 +339,8 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_lana',
         uuid: 'e2af7271-2598-4ee8-8760-68043e671e6d',
         name: 'Lana',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.XcUYof208I6e.m3u8',
     },
     levi: {
         username: 'jkt48_levi',
