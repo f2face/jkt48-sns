@@ -332,7 +332,8 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_kimmy',
         uuid: '52c5c190-3611-4def-866f-76c32c0b837e',
         name: 'Kimmy',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.W14pFXX17Z2c.m3u8',
     },
     lana: {
         username: 'jkt48_lana',
@@ -364,7 +365,8 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_nachia',
         uuid: '21a420b0-dd01-4daa-b185-b9020f8bf69d',
         name: 'Nachia',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.zVh5JKAAtDUC.m3u8',
     },
     nala: {
         username: 'jkt48_nala',
@@ -377,7 +379,8 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_nayla',
         uuid: 'e243be19-74b7-435b-8e19-13fc669e0224',
         name: 'Nayla',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.s29ur0XkIpE2.m3u8',
     },
     oline: {
         username: 'jkt48_oline',
@@ -402,13 +405,15 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_shasa',
         uuid: 'ec457dc0-b752-42c6-b812-5dd6d8d32715',
         name: 'Shasa',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.5FyqLUkZ8ZPs.m3u8',
     },
     trisha: {
         username: 'jkt48_trisha',
         uuid: '92d66abb-0171-4a2b-a30d-37ad58359248',
         name: 'Trisha',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.GwR4g1NQnJzJ.m3u8',
     },
     //#endregion
 } as const;
