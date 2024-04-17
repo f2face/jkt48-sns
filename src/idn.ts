@@ -387,7 +387,8 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         username: 'jkt48_oline',
         uuid: 'a2b5d818-475d-44ce-af52-e99526482aaf',
         name: 'Oline',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.gYN6fQPMCqs0.m3u8',
     },
     regie: {
         username: 'jkt48_regie',
