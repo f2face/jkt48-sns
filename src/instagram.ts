@@ -42,7 +42,6 @@ export const membersInstagram: Record<Members, Readonly<InstagramAccount>> = {
     olla: { id: '10113792466', username: 'jkt48.olla' },
     oniel: { id: '14671615574', username: 'jkt48.oniel' },
     raisha: { id: '51292071924', username: 'jkt48.raisha.s' },
-    shani: { id: '3079067207', username: 'jkt48shani' },
     zee: { id: '9144760144', username: 'jkt48.zee' },
 
     // Gen 11

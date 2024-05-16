@@ -189,13 +189,6 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         name: 'Raisha',
         defaultStreamUrl: undefined,
     },
-    shani: {
-        username: 'jkt48_shani',
-        uuid: '291f4ff3-698b-4258-9343-372f9133c4f0',
-        name: 'Shani',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.P7Sbhg6PTgcn.m3u8',
-    },
     zee: {
         username: 'jkt48_zee',
         uuid: 'f4388e63-04a6-4a62-9533-fbca54d6dd4d',
