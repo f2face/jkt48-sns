@@ -49,7 +49,6 @@ export const members = [
     'gendis',
     'gracie',
     'greesel',
-    'jeane',
     'michie',
 
     // Gen 12

@@ -53,7 +53,6 @@ export const membersTwitter: Record<Members, TwitterAccount> = {
     gendis: { id: '1587028520232161280', username: 'Gendis_JKT48' },
     gracie: { id: '1587027654146129926', username: 'Gracie_JKT48' },
     greesel: { id: '1587026900635242497', username: 'Greesel_JKT48' },
-    jeane: { id: '1587025846786609152', username: 'Jeane_JKT48' },
     michie: { id: '1586998054384586753', username: 'Michie_JKT48' },
 
     // Gen 12

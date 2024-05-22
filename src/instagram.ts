@@ -56,7 +56,6 @@ export const membersInstagram: Record<Members, Readonly<InstagramAccount>> = {
     gendis: { id: '56135666678', username: 'jkt48.gendis' },
     gracie: { id: '56427487233', username: 'jkt48.gracie' },
     greesel: { id: '56428863043', username: 'jkt48.greesel' },
-    jeane: { id: '56467955023', username: 'jkt48.jeane' },
     michie: { id: '56513469431', username: 'jkt48.michie_' },
 
     // Gen 12
