@@ -1,4 +1,4 @@
-import { Members, Officials } from './accounts.types';
+import type { Members, Officials } from './accounts.types';
 
 type TiktokAccount = {
     id: string;
@@ -6,6 +6,7 @@ type TiktokAccount = {
 };
 
 type ActiveOfficials = Extract<Officials, 'jkt48'>;
+type ActiveMembers = Members;
 
 export const officialsTiktok: Record<
     ActiveOfficials,
@@ -15,7 +16,7 @@ export const officialsTiktok: Record<
     jkt48: { id: '6940509177513477122', username: 'jkt48.official' },
 } as const;
 
-export const membersTiktok: Record<Members, Readonly<TiktokAccount>> = {
+export const membersTiktok: Record<ActiveMembers, Readonly<TiktokAccount>> = {
     // Members
     adel: { id: '6824805914240664577', username: 'adeljkt48' },
     amanda: { id: '7059268179784729626', username: 'jkt48.amanda.s' },
@@ -73,6 +74,5 @@ export const membersTiktok: Record<Members, Readonly<TiktokAccount>> = {
     oline: { id: '7302026621119333381', username: 'jkt48.oline' },
     regie: { id: '7302027091918078982', username: 'jkt48.regie' },
     ribka: { id: '7302624596221608965', username: 'jkt48.ribka' },
-    shasa: { id: '7302010912515654662', username: 'jkt48.shasa' },
     trisha: { id: '7302013854274733061', username: 'jkt48.trisha' },
 } as const;

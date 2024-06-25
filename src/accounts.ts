@@ -67,6 +67,5 @@ export const members = [
     'oline',
     'regie',
     'ribka',
-    'shasa',
     'trisha',
 ] as const;

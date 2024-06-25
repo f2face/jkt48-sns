@@ -1,4 +1,4 @@
-import { members, officials } from './accounts';
+import type { members, officials } from './accounts';
 
 export type Officials = (typeof officials)[number];
 export type Members = (typeof members)[number];

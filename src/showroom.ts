@@ -1,4 +1,4 @@
-import { Members, Officials } from './accounts.types';
+import type { Members, Officials } from './accounts.types';
 
 type ShowroomAccount = {
     roomId: number;
@@ -292,11 +292,6 @@ export const membersShowroom: Record<
         roomId: 510070,
         roomKey: 'JKT48_Ribka',
         roomName: 'Ribka / リブカ（JKT48）',
-    },
-    shasa: {
-        roomId: 509995,
-        roomKey: 'JKT48_Shasa',
-        roomName: 'Shasa / シャサ（JKT48）',
     },
     trisha: {
         roomId: 510013,

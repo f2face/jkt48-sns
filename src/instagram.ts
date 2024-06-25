@@ -1,4 +1,4 @@
-import { Members, Officials } from './accounts.types';
+import type { Members, Officials } from './accounts.types';
 
 type InstagramAccount = {
     id: string;
@@ -6,6 +6,7 @@ type InstagramAccount = {
 };
 
 type ActiveOfficials = Exclude<Officials, 'jkt48-cs'>;
+type ActiveMembers = Members;
 
 export const officialsInstagram: Record<
     ActiveOfficials,
@@ -16,7 +17,10 @@ export const officialsInstagram: Record<
     'jkt48-merch': { id: '4775538769', username: 'jkt48mrch' },
 } as const;
 
-export const membersInstagram: Record<Members, Readonly<InstagramAccount>> = {
+export const membersInstagram: Record<
+    ActiveMembers,
+    Readonly<InstagramAccount>
+> = {
     // Members
     adel: { id: '14818786906', username: 'jkt48.adel' },
     amanda: { id: '51673997280', username: 'jkt48.amanda.s' },
@@ -74,6 +78,5 @@ export const membersInstagram: Record<Members, Readonly<InstagramAccount>> = {
     oline: { id: '63140775119', username: 'jkt48.oline' },
     regie: { id: '62980548726', username: 'jkt48.regie' },
     ribka: { id: '62846082488', username: 'jkt48.ribka' },
-    shasa: { id: '62804670461', username: 'jkt48.shasa' },
     trisha: { id: '63369176393', username: 'jkt48.trisha' },
 } as const;

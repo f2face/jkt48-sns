@@ -1,4 +1,4 @@
-import { Members, Officials } from './accounts.types';
+import type { Members, Officials } from './accounts.types';
 
 type IdnAccount = {
     username: string;
@@ -390,13 +390,6 @@ export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
         name: 'Ribka',
         defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.m6srSRt8fTY6.m3u8',
-    },
-    shasa: {
-        username: 'jkt48_shasa',
-        uuid: 'ec457dc0-b752-42c6-b812-5dd6d8d32715',
-        name: 'Shasa',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.5FyqLUkZ8ZPs.m3u8',
     },
     trisha: {
         username: 'jkt48_trisha',

@@ -1,4 +1,4 @@
-import { Members, Officials } from './accounts.types';
+import type { Members, Officials } from './accounts.types';
 
 type TwitterAccount = {
     id: string;
@@ -6,6 +6,7 @@ type TwitterAccount = {
 };
 
 type ActiveOfficials = Exclude<Officials, 'jkt48-merch'>;
+type ActiveMembers = Members;
 
 export const officialsTwitter: Record<ActiveOfficials, TwitterAccount> = {
     // Official
@@ -13,7 +14,7 @@ export const officialsTwitter: Record<ActiveOfficials, TwitterAccount> = {
     'jkt48-cs': { id: '1308054102702583809', username: 'moshi2jkt48' },
 } as const;
 
-export const membersTwitter: Record<Members, TwitterAccount> = {
+export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     // Members
     adel: { id: '1148250023303401472', username: 'R_AdelJKT48' },
     amanda: { id: '1487067198162046979', username: 'PS_AmandaJKT48' },
@@ -71,6 +72,5 @@ export const membersTwitter: Record<Members, TwitterAccount> = {
     oline: { id: '1725203926793011201', username: 'M_OlineJKT48' },
     regie: { id: '1725205692456583168', username: 'Regie_JKT48' },
     ribka: { id: '1725111671025524736', username: 'Ribka_JKT48' },
-    shasa: { id: '1725126936622665728', username: 'Shasa_JKT48' },
     trisha: { id: '1725198003680788481', username: 'JTrisha_JKT48' },
 };
