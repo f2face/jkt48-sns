@@ -147,11 +147,6 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_Raisha',
         roomName: 'Raisha /ライシャ（JKT48）',
     },
-    zee: {
-        roomId: 317727,
-        roomKey: 'JKT48_Zee',
-        roomName: 'Zee/ジー（JKT48）',
-    },
     //#endregion
 
     //#region Gen 11

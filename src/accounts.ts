@@ -35,7 +35,6 @@ export const members = [
     'olla',
     'oniel',
     'raisha',
-    'zee',
 
     // Gen 11
     'alya',

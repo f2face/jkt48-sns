@@ -46,7 +46,6 @@ export const membersInstagram: Record<
     olla: { id: '10113792466', username: 'jkt48.olla' },
     oniel: { id: '14671615574', username: 'jkt48.oniel' },
     raisha: { id: '51292071924', username: 'jkt48.raisha.s' },
-    zee: { id: '9144760144', username: 'jkt48.zee' },
 
     // Gen 11
     alya: { id: '56089447105', username: 'jkt48.alya_' },
