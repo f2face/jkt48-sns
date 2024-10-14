@@ -16,7 +16,6 @@ export const officialsTwitter: Record<ActiveOfficials, TwitterAccount> = {
 
 export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     // Members
-    adel: { id: '1148250023303401472', username: 'R_AdelJKT48' },
     amanda: { id: '1487067198162046979', username: 'PS_AmandaJKT48' },
     callie: { id: '1487068731142377476', username: 'AW_CallieJKT48' },
     christy: { id: '1057323534551142400', username: 'A_ChristyJKT48' },

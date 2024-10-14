@@ -22,7 +22,6 @@ export const membersInstagram: Record<
     Readonly<InstagramAccount>
 > = {
     // Members
-    adel: { id: '14818786906', username: 'jkt48.adel' },
     amanda: { id: '51673997280', username: 'jkt48.amanda.s' },
     callie: { id: '51704682083', username: 'jkt48.callie.a' },
     christy: { id: '9145176000', username: 'jkt48.christy' },

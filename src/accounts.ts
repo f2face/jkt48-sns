@@ -11,7 +11,6 @@ export const officials = [
 
 export const members = [
     // Members
-    'adel',
     'amanda',
     'callie',
     'christy',

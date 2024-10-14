@@ -34,7 +34,7 @@ const allInstagram = Object.values({
 console.log(allInstagram);
 /*
 [
-  { id: '14818786906', username: 'jkt48.adel' },     
+  { id: '51673997280', username: 'jkt48.amanda.s' },     
   ...
   { id: '4775538769', username: 'jkt48mrch' }
 ]

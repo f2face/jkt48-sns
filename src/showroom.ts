@@ -27,11 +27,6 @@ export const membersShowroom: Record<
     Readonly<ShowroomAccount>
 > = {
     //#region Members
-    adel: {
-        roomId: 318239,
-        roomKey: 'JKT48_Adel',
-        roomName: 'Adel/アデル（JKT48）',
-    },
     amanda: {
         roomId: 400710,
         roomKey: 'JKT48_Amanda',
