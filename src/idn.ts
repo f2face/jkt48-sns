@@ -16,8 +16,10 @@ export const officialsIdn: Record<ActiveOfficialsIdn, Readonly<IdnAccount>> = {
         username: 'jkt48-official',
         uuid: '50a27780-93e7-4e40-8474-60f6e0cca6da',
         name: 'JKT48',
+        /* defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.4idUspKIZskG.m3u8', */
         defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.4idUspKIZskG.m3u8',
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.1s3sSrncQ8Ch.m3u8',
     },
     //#endregion
 } as const;
