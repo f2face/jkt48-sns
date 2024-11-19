@@ -1,16 +1,16 @@
 import type { Members, Officials } from './accounts.types';
 
-type ShowroomAccount = {
+export type ShowroomAccount = {
     roomId: number;
     roomKey: string;
     roomName: string;
 };
 
-type ActiveOfficials = Extract<Officials, 'jkt48'>;
-type ActiveMembers = Members;
+export type ActiveOfficialsShowroom = Extract<Officials, 'jkt48'>;
+export type ActiveMembersShowroom = Members;
 
 export const officialsShowroom: Record<
-    ActiveOfficials,
+    ActiveOfficialsShowroom,
     Readonly<ShowroomAccount>
 > = {
     //#region Official
@@ -23,7 +23,7 @@ export const officialsShowroom: Record<
 } as const;
 
 export const membersShowroom: Record<
-    ActiveMembers,
+    ActiveMembersShowroom,
     Readonly<ShowroomAccount>
 > = {
     //#region Members

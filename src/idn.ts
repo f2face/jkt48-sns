@@ -1,16 +1,16 @@
 import type { Members, Officials } from './accounts.types';
 
-type IdnAccount = {
+export type IdnAccount = {
     username: string;
     uuid: string;
     name: string;
     defaultStreamUrl?: string;
 };
 
-type ActiveOfficials = Extract<Officials, 'jkt48'>;
-type ActiveMembers = Members;
+export type ActiveOfficialsIdn = Extract<Officials, 'jkt48'>;
+export type ActiveMembersIdn = Members;
 
-export const officialsIdn: Record<ActiveOfficials, Readonly<IdnAccount>> = {
+export const officialsIdn: Record<ActiveOfficialsIdn, Readonly<IdnAccount>> = {
     //#region Official
     jkt48: {
         username: 'jkt48-official',
@@ -22,7 +22,7 @@ export const officialsIdn: Record<ActiveOfficials, Readonly<IdnAccount>> = {
     //#endregion
 } as const;
 
-export const membersIdn: Record<ActiveMembers, Readonly<IdnAccount>> = {
+export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
     //#region Members
     amanda: {
         username: 'jkt48_amanda',
