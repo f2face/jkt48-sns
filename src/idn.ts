@@ -112,8 +112,10 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_indira',
         uuid: '101e8521-4f90-4b0e-9bff-fc4d1923e82d',
         name: 'Indira',
+        /* defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.O6aLPrWLhBTe.m3u8', */
         defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.O6aLPrWLhBTe.m3u8',
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.TkI4nJ4EI48J.m3u8',
     },
     jessi: {
         username: 'jkt48_jessi',
