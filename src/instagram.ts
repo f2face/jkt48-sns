@@ -23,7 +23,6 @@ export const membersInstagram: Record<
 > = {
     // Members
     amanda: { id: '51673997280', username: 'jkt48.amanda.s' },
-    callie: { id: '51704682083', username: 'jkt48.callie.a' },
     christy: { id: '9145176000', username: 'jkt48.christy' },
     eli: { id: '8971446779', username: 'jkt48.eli' },
     ella: { id: '51296391646', username: 'jkt48.ella.a' },

@@ -32,11 +32,6 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_Amanda',
         roomName: 'Amanda/アマンダ（JKT48）',
     },
-    callie: {
-        roomId: 400714,
-        roomKey: 'JKT48_Callie',
-        roomName: 'Callie /カリー（JKT48）',
-    },
     christy: {
         roomId: 318112,
         roomKey: 'JKT48_Christy',

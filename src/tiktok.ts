@@ -19,7 +19,6 @@ export const officialsTiktok: Record<
 export const membersTiktok: Record<ActiveMembers, Readonly<TiktokAccount>> = {
     // Members
     amanda: { id: '7059268179784729626', username: 'jkt48.amanda.s' },
-    callie: { id: '7059269155057402906', username: 'jkt48.callie.a' },
     christy: { id: '6832179585023624194', username: 'christyjkt48' },
     eli: { id: '6832179968195150849', username: 'elijkt48' },
     ella: { id: '7059270147147744282', username: 'jkt48.ella.a' },
