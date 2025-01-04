@@ -71,7 +71,8 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_flora',
         uuid: 'ad52d75c-c00f-4c6d-9f36-b865b15b342f',
         name: 'Flora',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.hpMADMalSHi1.m3u8',
     },
     freya: {
         username: 'jkt48_freya',
