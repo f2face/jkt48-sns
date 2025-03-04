@@ -7,7 +7,7 @@ export type IdnAccount = {
     defaultStreamUrl?: string;
 };
 
-export type ActiveOfficialsIdn = Extract<Officials, 'jkt48'>;
+export type ActiveOfficialsIdn = Extract<Officials, 'jkt48' | 'jkt48-trainee'>;
 export type ActiveMembersIdn = Members;
 
 export const officialsIdn: Record<ActiveOfficialsIdn, Readonly<IdnAccount>> = {
@@ -18,6 +18,15 @@ export const officialsIdn: Record<ActiveOfficialsIdn, Readonly<IdnAccount>> = {
         name: 'JKT48',
         defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.4idUspKIZskG.m3u8',
+        /* defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.1s3sSrncQ8Ch.m3u8', */
+    },
+    'jkt48-trainee': {
+        username: 'jkt_x2abfdrhqc67tl',
+        uuid: '90967b93-4c13-4128-8294-a4f8612b109f',
+        name: 'JKT48 Trainee',
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.VgvCGVpwb3hO.m3u8',
         /* defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.1s3sSrncQ8Ch.m3u8', */
     },
