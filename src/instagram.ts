@@ -5,7 +5,7 @@ type InstagramAccount = {
     username: string;
 };
 
-type ActiveOfficials = Exclude<Officials, 'jkt48-cs'>;
+type ActiveOfficials = Exclude<Officials, 'jkt48-cs' | 'jkt48-trainee'>;
 type ActiveMembers = Members;
 
 export const officialsInstagram: Record<

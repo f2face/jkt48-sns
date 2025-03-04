@@ -5,7 +5,7 @@ type TwitterAccount = {
     username: string;
 };
 
-type ActiveOfficials = Exclude<Officials, 'jkt48-merch'>;
+type ActiveOfficials = Exclude<Officials, 'jkt48-merch' | 'jkt48-trainee'>;
 type ActiveMembers = Members;
 
 export const officialsTwitter: Record<ActiveOfficials, TwitterAccount> = {
