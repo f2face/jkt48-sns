@@ -28,7 +28,6 @@ export const membersInstagram: Record<
     ella: { id: '51296391646', username: 'jkt48.ella.a' },
     feni: { id: '3079024445', username: 'jkt48feni' },
     fiony: { id: '14997520514', username: 'jkt48.fiony' },
-    flora: { id: '14811899509', username: 'jkt48.flora' },
     freya: { id: '9884975657', username: 'jkt48.freya' },
     gita: { id: '7950862752', username: 'jkt48gita' },
     gracia: { id: '3079069051', username: 'jkt48gracia' },

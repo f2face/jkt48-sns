@@ -57,11 +57,6 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_Fiony',
         roomName: 'Fiony /フィオニー（JKT48）',
     },
-    flora: {
-        roomId: 318224,
-        roomKey: 'JKT48_Flora',
-        roomName: 'Flora/フロラ（JKT48）',
-    },
     freya: {
         roomId: 318225,
         roomKey: 'JKT48_Freya',

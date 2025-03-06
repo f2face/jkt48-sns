@@ -24,7 +24,6 @@ export const membersTiktok: Record<ActiveMembers, Readonly<TiktokAccount>> = {
     ella: { id: '7059270147147744282', username: 'jkt48.ella.a' },
     feni: { id: '6832177287313605634', username: 'fenijkt48' },
     fiony: { id: '6825556405542700033', username: 'fionyjkt48' },
-    flora: { id: '6949541772762596354', username: 'florajkt48' },
     freya: { id: '6824893042371331073', username: 'freyajkt48' },
     gita: { id: '6832182064680453122', username: 'gitajkt48' },
     gracia: { id: '6823991216523281410', username: 'graciajkt48' },

@@ -8,7 +8,7 @@ export const officials = [
     // Moshi2
     'jkt48-cs',
 
-    'jkt48-trainee'
+    'jkt48-trainee',
 ] as const;
 
 export const members = [
@@ -19,7 +19,6 @@ export const members = [
     'ella',
     'feni',
     'fiony',
-    'flora',
     'freya',
     'gita',
     'gracia',
