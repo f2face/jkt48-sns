@@ -68,13 +68,13 @@ export const members = [
     'trisha',
 
     // Gen 13
-    // 'auwia',
-    // 'ekin',
-    // 'giaa',
-    // 'intan',
-    // 'jemima',
-    // 'maira',
-    // 'mikaela',
-    // 'rilly',
-    // 'virgi',
+    'auwia',
+    'ekin',
+    'giaa',
+    'intan',
+    'jemima',
+    'maira',
+    'mikaela',
+    'rilly',
+    'virgi',
 ] as const;

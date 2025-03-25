@@ -6,7 +6,18 @@ type TwitterAccount = {
 };
 
 type ActiveOfficials = Exclude<Officials, 'jkt48-merch' | 'jkt48-trainee'>;
-type ActiveMembers = Members;
+type ActiveMembers = Exclude<
+    Members,
+    | 'auwia'
+    | 'ekin'
+    | 'giaa'
+    | 'intan'
+    | 'jemima'
+    | 'maira'
+    | 'mikaela'
+    | 'rilly'
+    | 'virgi'
+>;
 
 export const officialsTwitter: Record<ActiveOfficials, TwitterAccount> = {
     // Official
@@ -69,4 +80,15 @@ export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     regie: { id: '1725205692456583168', username: 'Regie_JKT48' },
     ribka: { id: '1725111671025524736', username: 'Ribka_JKT48' },
     trisha: { id: '1725198003680788481', username: 'JTrisha_JKT48' },
+
+    // Gen 13
+    // auwia: { id: '', username: ' ' },
+    // ekin: { id: '', username: ' ' },
+    // giaa: { id: '', username: ' ' },
+    // intan: { id: '', username: ' ' },
+    // jemima: { id: '', username: ' ' },
+    // maira: { id: '', username: ' ' },
+    // mikaela: { id: '', username: ' ' },
+    // rilly: { id: '', username: ' ' },
+    // virgi: { id: '', username: ' ' },
 };

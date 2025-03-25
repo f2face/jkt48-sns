@@ -7,7 +7,18 @@ export type ShowroomAccount = {
 };
 
 export type ActiveOfficialsShowroom = Extract<Officials, 'jkt48'>;
-export type ActiveMembersShowroom = Members;
+export type ActiveMembersShowroom = Exclude<
+    Members,
+    | 'auwia'
+    | 'ekin'
+    | 'giaa'
+    | 'intan'
+    | 'jemima'
+    | 'maira'
+    | 'mikaela'
+    | 'rilly'
+    | 'virgi'
+>;
 
 export const officialsShowroom: Record<
     ActiveOfficialsShowroom,
@@ -278,5 +289,53 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_Trisha',
         roomName: 'Trisha / トリシャ（JKT48）',
     },
+    //#endregion
+
+    //#region Gen 13
+    /* auwia: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    ekin: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    giaa: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    intan: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    jemima: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    maira: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    mikaela: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    rilly: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    },
+    virgi: {
+        roomId: 0,
+        roomKey: '',
+        roomName: '',
+    }, */
     //#endregion
 } as const;

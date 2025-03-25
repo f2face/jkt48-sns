@@ -6,7 +6,18 @@ type InstagramAccount = {
 };
 
 type ActiveOfficials = Exclude<Officials, 'jkt48-cs' | 'jkt48-trainee'>;
-type ActiveMembers = Members;
+type ActiveMembers = Exclude<
+    Members,
+    | 'auwia'
+    | 'ekin'
+    | 'giaa'
+    | 'intan'
+    | 'jemima'
+    | 'maira'
+    | 'mikaela'
+    | 'rilly'
+    | 'virgi'
+>;
 
 export const officialsInstagram: Record<
     ActiveOfficials,
@@ -75,4 +86,15 @@ export const membersInstagram: Record<
     regie: { id: '62980548726', username: 'jkt48.regie' },
     ribka: { id: '62846082488', username: 'jkt48.ribka' },
     trisha: { id: '63369176393', username: 'jkt48.trisha' },
+
+    // Gen 13
+    // auwia: { id: '', username: ' ' },
+    // ekin: { id: '', username: ' ' },
+    // giaa: { id: '', username: ' ' },
+    // intan: { id: '', username: ' ' },
+    // jemima: { id: '', username: ' ' },
+    // maira: { id: '', username: ' ' },
+    // mikaela: { id: '', username: ' ' },
+    // rilly: { id: '', username: ' ' },
+    // virgi: { id: '', username: ' ' },
 } as const;

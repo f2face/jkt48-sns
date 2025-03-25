@@ -6,7 +6,18 @@ type TiktokAccount = {
 };
 
 type ActiveOfficials = Extract<Officials, 'jkt48'>;
-type ActiveMembers = Members;
+type ActiveMembers = Exclude<
+    Members,
+    | 'auwia'
+    | 'ekin'
+    | 'giaa'
+    | 'intan'
+    | 'jemima'
+    | 'maira'
+    | 'mikaela'
+    | 'rilly'
+    | 'virgi'
+>;
 
 export const officialsTiktok: Record<
     ActiveOfficials,
@@ -71,4 +82,15 @@ export const membersTiktok: Record<ActiveMembers, Readonly<TiktokAccount>> = {
     regie: { id: '7302027091918078982', username: 'jkt48.regie' },
     ribka: { id: '7302624596221608965', username: 'jkt48.ribka' },
     trisha: { id: '7302013854274733061', username: 'jkt48.trisha' },
+
+    // Gen 13
+    // auwia: { id: '', username: ' ' },
+    // ekin: { id: '', username: ' ' },
+    // giaa: { id: '', username: ' ' },
+    // intan: { id: '', username: ' ' },
+    // jemima: { id: '', username: ' ' },
+    // maira: { id: '', username: ' ' },
+    // mikaela: { id: '', username: ' ' },
+    // rilly: { id: '', username: ' ' },
+    // virgi: { id: '', username: ' ' },
 } as const;

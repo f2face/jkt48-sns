@@ -384,4 +384,61 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.GwR4g1NQnJzJ.m3u8',
     },
     //#endregion
+
+    //#region Trainee Gen 13
+    auwia: {
+        username: 'jkt48_auwia',
+        uuid: 'f9500eb4-9d6d-491d-a857-40ca6f862d61',
+        name: 'Auwia',
+        defaultStreamUrl: undefined,
+    },
+    ekin: {
+        username: 'jkt48_ekin',
+        uuid: '85f369d7-6525-41c0-94b8-9a56686713eb',
+        name: 'Ekin',
+        defaultStreamUrl: undefined,
+    },
+    giaa: {
+        username: 'jkt48_giaa',
+        uuid: '3c97d6a6-6fc2-4e2b-b7f6-e94ebe9c3e93',
+        name: 'Giaa',
+        defaultStreamUrl: undefined,
+    },
+    intan: {
+        username: 'jkt48_intan',
+        uuid: 'cbc0bbe1-d6ea-4646-bfcf-24b3a642fa21',
+        name: 'Intan',
+        defaultStreamUrl: undefined,
+    },
+    jemima: {
+        username: 'jkt48_jemima',
+        uuid: 'fe70498c-cb4c-4f98-9ad8-e0bd3fe2c453',
+        name: 'Jemima',
+        defaultStreamUrl: undefined,
+    },
+    maira: {
+        username: 'jkt48_maira',
+        uuid: '7599c984-c466-4962-8c5b-73c1d33d59d9',
+        name: 'Maira',
+        defaultStreamUrl: undefined,
+    },
+    mikaela: {
+        username: 'jkt48_mikaela',
+        uuid: 'a557ba58-12d8-4260-bd50-9e5252ac71ef',
+        name: 'Mikaela',
+        defaultStreamUrl: undefined,
+    },
+    rilly: {
+        username: 'jkt48_rilly',
+        uuid: 'e9170998-f026-4186-bbc5-a17a3b5b2af1',
+        name: 'Rilly',
+        defaultStreamUrl: undefined,
+    },
+    virgi: {
+        username: 'jkt48_virgi',
+        uuid: '147e83c8-f3ac-4680-9141-2f518b4b7810',
+        name: 'Virgi',
+        defaultStreamUrl: undefined,
+    },
+    //#endregion
 } as const;
