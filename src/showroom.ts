@@ -7,18 +7,7 @@ export type ShowroomAccount = {
 };
 
 export type ActiveOfficialsShowroom = Extract<Officials, 'jkt48'>;
-export type ActiveMembersShowroom = Exclude<
-    Members,
-    | 'auwia'
-    | 'ekin'
-    | 'giaa'
-    | 'intan'
-    | 'jemima'
-    | 'maira'
-    | 'mikaela'
-    | 'rilly'
-    | 'virgi'
->;
+export type ActiveMembersShowroom = Members;
 
 export const officialsShowroom: Record<
     ActiveOfficialsShowroom,
@@ -292,50 +281,50 @@ export const membersShowroom: Record<
     //#endregion
 
     //#region Gen 13
-    /* auwia: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+    auwia: {
+        roomId: 547062,
+        roomKey: 'JKT48_Auwia',
+        roomName: 'Auwia / アウウィア (JKT48)',
     },
     ekin: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+        roomId: 547065,
+        roomKey: 'JKT48_Ekin',
+        roomName: 'Ekin / エキン (JKT48)',
     },
     giaa: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+        roomId: 547067,
+        roomKey: 'JKT48_Giaa',
+        roomName: 'Giaa / ギアァ (JKT48)',
     },
     intan: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+        roomId: 547073,
+        roomKey: 'JKT48_Intan',
+        roomName: 'Intan / インタン (JKT48)',
     },
     jemima: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+        roomId: 547072,
+        roomKey: 'JKT48_Jemima',
+        roomName: 'Jemima / ジェミマ (JKT48)',
     },
     maira: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+        roomId: 547064,
+        roomKey: 'JKT48_Maira',
+        roomName: 'Maira / マイラ (JKT48)',
     },
     mikaela: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+        roomId: 547066,
+        roomKey: 'JKT48_Mikaela',
+        roomName: 'Mikaela / ミカエラ (JKT48)',
     },
     rilly: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
+        roomId: 547063,
+        roomKey: 'JKT48_Rilly',
+        roomName: 'Rilly / リリー (JKT48)',
     },
     virgi: {
-        roomId: 0,
-        roomKey: '',
-        roomName: '',
-    }, */
+        roomId: 547061,
+        roomKey: 'JKT48_Virgi',
+        roomName: 'Virgi / ヴィルジ (JKT48)',
+    },
     //#endregion
 } as const;
