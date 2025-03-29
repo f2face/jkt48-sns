@@ -420,7 +420,8 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_maira',
         uuid: '7599c984-c466-4962-8c5b-73c1d33d59d9',
         name: 'Maira',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.e39rcA4LMxwI.m3u8',
     },
     mikaela: {
         username: 'jkt48_mikaela',
