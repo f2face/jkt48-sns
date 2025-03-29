@@ -1,6 +1,6 @@
 {
   "name": "jkt48-sns",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "description": "JKT48 members and officials account list.",
   "author": "f2face",
   "main": "./dist/index.js",

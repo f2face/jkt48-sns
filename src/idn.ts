@@ -390,7 +390,8 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_auwia',
         uuid: 'f9500eb4-9d6d-491d-a857-40ca6f862d61',
         name: 'Auwia',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.XliapIMZ7P2P.m3u8',
     },
     ekin: {
         username: 'jkt48_ekin',
@@ -428,7 +429,8 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_mikaela',
         uuid: 'a557ba58-12d8-4260-bd50-9e5252ac71ef',
         name: 'Mikaela',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.948DSG1qwIJH.m3u8',
     },
     rilly: {
         username: 'jkt48_rilly',
