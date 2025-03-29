@@ -442,7 +442,8 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_virgi',
         uuid: '147e83c8-f3ac-4680-9141-2f518b4b7810',
         name: 'Virgi',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.9DxiaFf6lSom.m3u8',
     },
     //#endregion
 } as const;
