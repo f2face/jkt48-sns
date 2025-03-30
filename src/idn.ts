@@ -397,13 +397,15 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_ekin',
         uuid: '85f369d7-6525-41c0-94b8-9a56686713eb',
         name: 'Ekin',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.I9niN5y7NTZF.m3u8',
     },
     giaa: {
         username: 'jkt48_giaa',
         uuid: '3c97d6a6-6fc2-4e2b-b7f6-e94ebe9c3e93',
         name: 'Giaa',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.3dNPEzieJMP6.m3u8',
     },
     intan: {
         username: 'jkt48_intan',
