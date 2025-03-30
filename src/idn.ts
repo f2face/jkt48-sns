@@ -418,7 +418,8 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_jemima',
         uuid: 'fe70498c-cb4c-4f98-9ad8-e0bd3fe2c453',
         name: 'Jemima',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.pYGgcUgAi8pI.m3u8',
     },
     maira: {
         username: 'jkt48_maira',
@@ -438,7 +439,8 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         username: 'jkt48_rilly',
         uuid: 'e9170998-f026-4186-bbc5-a17a3b5b2af1',
         name: 'Rilly',
-        defaultStreamUrl: undefined,
+        defaultStreamUrl:
+            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.pehOrZyTt2j4.m3u8',
     },
     virgi: {
         username: 'jkt48_virgi',
