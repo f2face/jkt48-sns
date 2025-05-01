@@ -78,7 +78,6 @@ export const membersInstagram: Record<
     lana: { id: '62789927836', username: 'jkt48.lana.a' },
     levi: { id: '62975221284', username: 'jkt48.levi' },
     lily: { id: '62798039169', username: 'jkt48.lily_' },
-    moreen: { id: '63159411688', username: 'jkt48.moreen' },
     nachia: { id: '62954143386', username: 'jkt48.nachia.t' },
     nala: { id: '63367504599', username: 'jkt48.nala' },
     nayla: { id: '62967333855', username: 'jkt48.nayla.s' },

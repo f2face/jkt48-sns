@@ -327,13 +327,6 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.4hPWCxNDO8aY.m3u8',
     },
-    moreen: {
-        username: 'jkt48_moreen',
-        uuid: '3c9d4708-d690-40eb-b4e9-d2caf7a7476b',
-        name: 'Moreen',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.vlBEUnBNQ5U4.m3u8',
-    },
     nachia: {
         username: 'jkt48_nachia',
         uuid: '21a420b0-dd01-4daa-b185-b9020f8bf69d',

@@ -238,11 +238,6 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_Lily',
         roomName: 'Lily / リリー（JKT48）',
     },
-    moreen: {
-        roomId: 510014,
-        roomKey: 'JKT48_Moreen',
-        roomName: 'Moreen / モリーン（JKT48）',
-    },
     nachia: {
         roomId: 510065,
         roomKey: 'JKT48_Nachia',
