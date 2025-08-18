@@ -258,11 +258,6 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_OlineM',
         roomName: 'Oline / オリヌ（JKT48）',
     },
-    regie: {
-        roomId: 510068,
-        roomKey: 'JKT48_Regie',
-        roomName: 'Regie / レギー（JKT48）',
-    },
     ribka: {
         roomId: 510070,
         roomKey: 'JKT48_Ribka',

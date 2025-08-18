@@ -76,7 +76,6 @@ export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     nala: { id: '1725207038559731713', username: 'Nala_JKT48' },
     nayla: { id: '1735554273617031168', username: 'SNayla_JKT48' },
     oline: { id: '1725203926793011201', username: 'M_OlineJKT48' },
-    regie: { id: '1725205692456583168', username: 'Regie_JKT48' },
     ribka: { id: '1725111671025524736', username: 'Ribka_JKT48' },
     trisha: { id: '1725198003680788481', username: 'JTrisha_JKT48' },
 

@@ -82,7 +82,6 @@ export const membersInstagram: Record<
     nala: { id: '63367504599', username: 'jkt48.nala' },
     nayla: { id: '62967333855', username: 'jkt48.nayla.s' },
     oline: { id: '63140775119', username: 'jkt48.oline' },
-    regie: { id: '62980548726', username: 'jkt48.regie' },
     ribka: { id: '62846082488', username: 'jkt48.ribka' },
     trisha: { id: '63369176393', username: 'jkt48.trisha' },
 

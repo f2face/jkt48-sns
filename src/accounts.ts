@@ -62,7 +62,6 @@ export const members = [
     'nala',
     'nayla',
     'oline',
-    'regie',
     'ribka',
     'trisha',
 
