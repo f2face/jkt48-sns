@@ -23,7 +23,6 @@ export const members = [
     'gita',
     'gracia',
     'indah',
-    'indira',
     'jessi',
     'kathrina',
     'lia',

@@ -43,7 +43,6 @@ export const membersInstagram: Record<
     gita: { id: '7950862752', username: 'jkt48gita' },
     gracia: { id: '3079069051', username: 'jkt48gracia' },
     indah: { id: '28733660397', username: 'jkt48indah_' },
-    indira: { id: '51849341795', username: 'jkt48.indira.s' },
     jessi: { id: '10672013127', username: 'jkt48.jessi' },
     kathrina: { id: '28942049294', username: 'jkt48.kathrina' },
     lia: { id: '51662869963', username: 'jkt48.aurellia_' },
