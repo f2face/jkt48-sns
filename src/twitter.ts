@@ -35,7 +35,6 @@ export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     fiony: { id: '1130448444282232832', username: 'A_FionyJKT48' },
     freya: { id: '4722555409', username: 'Freya_JKT48' },
     gita: { id: '986499254188322816', username: 'A_GitaJKT48' },
-    gracia: { id: '2397676153', username: 'S_GraciaJKT48' },
     indah: { id: '1223198542988054529', username: 'C_IndahJKT48' },
     jessi: { id: '1057844081315897344', username: 'C_JessiJKT48' },
     kathrina: { id: '1222076115566522368', username: 'I_KathrinaJKT48' },

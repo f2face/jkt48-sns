@@ -88,13 +88,6 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.k4fAFOYXENlG.m3u8',
     },
-    gracia: {
-        username: 'jkt48_gracia',
-        uuid: 'ffbdaf60-9c8c-4897-82ef-fc3e7f6deb9c',
-        name: 'Gracia',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.jnOMRcM1CNz3.m3u8',
-    },
     indah: {
         username: 'jkt48_indah',
         uuid: '539f5185-1414-416c-b84d-2ad366b6d60a',

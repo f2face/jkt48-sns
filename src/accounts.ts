@@ -21,7 +21,6 @@ export const members = [
     'fiony',
     'freya',
     'gita',
-    'gracia',
     'indah',
     'jessi',
     'kathrina',

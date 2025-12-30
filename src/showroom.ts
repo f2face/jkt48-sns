@@ -67,11 +67,6 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_Gita',
         roomName: 'Gita/ギタ（JKT48）',
     },
-    gracia: {
-        roomId: 318208,
-        roomKey: 'JKT48_Gracia',
-        roomName: 'Gracia/グラシア（JKT48）',
-    },
     indah: {
         roomId: 318227,
         roomKey: 'JKT48_Indah',
