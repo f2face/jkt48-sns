@@ -25,16 +25,16 @@
     "url": "https://github.com/f2face/jkt48-sns"
   },
   "devDependencies": {
-    "@types/node": "^20.16.1",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "axios": "^1.7.5",
-    "cheerio": "1.0.0-rc.12",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.3",
-    "rimraf": "^5.0.10",
-    "tsx": "^4.19.3",
-    "typescript": "^5.5.4"
+    "@types/node": "^25.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "@typescript-eslint/parser": "^8.51.0",
+    "axios": "^1.13.2",
+    "cheerio": "1.1.2",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }
