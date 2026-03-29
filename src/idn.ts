@@ -33,13 +33,6 @@ export const officialsIdn: Record<ActiveOfficialsIdn, Readonly<IdnAccount>> = {
 
 export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
     //#region Members
-    amanda: {
-        username: 'jkt48_amanda',
-        uuid: 'e8aa0877-684a-4430-8a3b-d96302e53aab',
-        name: 'Amanda',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.08vLei7g32Nv.m3u8',
-    },
     christy: {
         username: 'jkt48_christy',
         uuid: '01506e57-d837-4a1e-8dd4-3e99e3489ac8',

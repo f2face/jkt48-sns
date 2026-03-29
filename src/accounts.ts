@@ -13,7 +13,6 @@ export const officials = [
 
 export const members = [
     // Members
-    'amanda',
     'christy',
     'eli',
     'ella',
