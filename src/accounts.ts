@@ -72,4 +72,16 @@ export const members = [
     'mikaela',
     'rilly',
     'virgi',
+
+    // Gen 14
+    'fera',
+    'carissa',
+    'bella',
+    'fahira',
+    'rara',
+    'heidi',
+    'maxine',
+    'jazzy',
+    'ralyne',
+    'sona',
 ] as const;

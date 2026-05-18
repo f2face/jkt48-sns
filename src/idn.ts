@@ -348,7 +348,7 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
     },
     //#endregion
 
-    //#region Trainee Gen 13
+    //#region Gen 13
     auwia: {
         username: 'jkt48_auwia',
         uuid: 'f9500eb4-9d6d-491d-a857-40ca6f862d61',
@@ -411,6 +411,69 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         name: 'Virgi',
         defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.9DxiaFf6lSom.m3u8',
+    },
+    //#endregion
+
+    //#region Gen 14
+    fera: {
+        username: 'jkt48_fera',
+        uuid: '224d7e34-54ce-4aaa-a8e8-f9e197d7f774',
+        name: 'Fera',
+        defaultStreamUrl: undefined,
+    },
+    carissa: {
+        username: 'jkt48_carissa',
+        uuid: '860ed330-d0bf-4af9-bc33-575e876abcc3',
+        name: 'Carissa',
+        defaultStreamUrl: undefined,
+    },
+    bella: {
+        username: 'jkt48_bella',
+        uuid: '79560bc6-813e-44d7-95b1-c9cf8e29f620',
+        name: 'Bella',
+        defaultStreamUrl: undefined,
+    },
+    fahira: {
+        username: 'jkt48_fahira',
+        uuid: '1d21f357-686e-4a7a-aa32-6a32090d924e',
+        name: 'Fahira',
+        defaultStreamUrl: undefined,
+    },
+    rara: {
+        username: 'jkt48_rara',
+        uuid: '22ea8526-30a9-4f95-a750-b84673647054',
+        name: 'Rara',
+        defaultStreamUrl: undefined,
+    },
+    heidi: {
+        username: 'jkt48_heidi',
+        uuid: '9bb79bed-688f-42bc-b971-c12668b7bb90',
+        name: 'Heidi',
+        defaultStreamUrl: undefined,
+    },
+    maxine: {
+        username: 'jkt48_maxine',
+        uuid: 'fb24385e-4954-4ae9-b24e-de041cfca0c4',
+        name: 'Maxine',
+        defaultStreamUrl: undefined,
+    },
+    jazzy: {
+        username: 'jkt48_jazzy',
+        uuid: '52d343df-2b43-4848-9b23-70a081659109',
+        name: 'Jazzy',
+        defaultStreamUrl: undefined,
+    },
+    ralyne: {
+        username: 'jkt48_ralyne',
+        uuid: 'ea45d282-0b03-4b7f-a4e9-cf649f27fcd0',
+        name: 'Ralyne',
+        defaultStreamUrl: undefined,
+    },
+    sona: {
+        username: 'jkt48_sona',
+        uuid: '61d965a9-58cc-4d79-8104-0a326b91f731',
+        name: 'Sona',
+        defaultStreamUrl: undefined,
     },
     //#endregion
 } as const;

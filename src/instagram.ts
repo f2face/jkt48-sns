@@ -17,6 +17,16 @@ type ActiveMembers = Exclude<
     | 'mikaela'
     | 'rilly'
     | 'virgi'
+    | 'fera'
+    | 'carissa'
+    | 'bella'
+    | 'fahira'
+    | 'rara'
+    | 'heidi'
+    | 'maxine'
+    | 'jazzy'
+    | 'ralyne'
+    | 'sona'
 >;
 
 export const officialsInstagram: Record<
