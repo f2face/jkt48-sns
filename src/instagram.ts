@@ -8,21 +8,11 @@ type InstagramAccount = {
 type ActiveOfficials = Exclude<Officials, 'jkt48-cs' | 'jkt48-trainee'>;
 type ActiveMembers = Exclude<
     Members,
-    | 'auwia'
-    | 'ekin'
-    | 'giaa'
-    | 'intan'
-    | 'jemima'
-    | 'maira'
-    | 'mikaela'
-    | 'rilly'
-    | 'virgi'
     | 'fera'
     | 'carissa'
     | 'bella'
     | 'fahira'
     | 'rara'
-    | 'heidi'
     | 'maxine'
     | 'jazzy'
     | 'ralyne'
@@ -36,6 +26,7 @@ export const officialsInstagram: Record<
     // Official
     jkt48: { id: '3082798080', username: 'jkt48' },
     'jkt48-merch': { id: '4775538769', username: 'jkt48mrch' },
+    'jkt48-u16': { id: '24879742423', username: 'jkt48.u16' },
 } as const;
 
 export const membersInstagram: Record<
@@ -93,13 +84,16 @@ export const membersInstagram: Record<
     trisha: { id: '63369176393', username: 'jkt48.trisha' },
 
     // Gen 13
-    // auwia: { id: '', username: ' ' },
-    // ekin: { id: '', username: ' ' },
-    // giaa: { id: '', username: ' ' },
-    // intan: { id: '', username: ' ' },
-    // jemima: { id: '', username: ' ' },
-    // maira: { id: '', username: ' ' },
-    // mikaela: { id: '', username: ' ' },
-    // rilly: { id: '', username: ' ' },
-    // virgi: { id: '', username: ' ' },
+    auwia: { id: '70009098171', username: 'auwia.jkt48' },
+    ekin: { id: '70344549914', username: 'ekin.jkt48' },
+    giaa: { id: '70362387058', username: 'giaa.jkt48' },
+    intan: { id: '70353580199', username: 'intan.jkt48' },
+    jemima: { id: '69798980755', username: 'jemima.jkt48' },
+    maira: { id: '69788062152', username: 'maira.jkt48' },
+    mikaela: { id: '70338103298', username: 'mikaela.jkt48' },
+    rilly: { id: '70221680537', username: 'rilly.jkt48_' },
+    virgi: { id: '69784158514', username: 'virgi.jkt48' },
+
+    // Gen 14
+    heidi: { id: '48746614691', username: 'heidi.jkt48' },
 } as const;

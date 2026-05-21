@@ -5,24 +5,17 @@ type TwitterAccount = {
     username: string;
 };
 
-type ActiveOfficials = Exclude<Officials, 'jkt48-merch' | 'jkt48-trainee'>;
+type ActiveOfficials = Exclude<
+    Officials,
+    'jkt48-merch' | 'jkt48-trainee' | 'jkt48-u16'
+>;
 type ActiveMembers = Exclude<
     Members,
-    | 'auwia'
-    | 'ekin'
-    | 'giaa'
-    | 'intan'
-    | 'jemima'
-    | 'maira'
-    | 'mikaela'
-    | 'rilly'
-    | 'virgi'
     | 'fera'
     | 'carissa'
     | 'bella'
     | 'fahira'
     | 'rara'
-    | 'heidi'
     | 'maxine'
     | 'jazzy'
     | 'ralyne'
@@ -87,13 +80,16 @@ export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     trisha: { id: '1725198003680788481', username: 'JTrisha_JKT48' },
 
     // Gen 13
-    // auwia: { id: '', username: ' ' },
-    // ekin: { id: '', username: ' ' },
-    // giaa: { id: '', username: ' ' },
-    // intan: { id: '', username: ' ' },
-    // jemima: { id: '', username: ' ' },
-    // maira: { id: '', username: ' ' },
-    // mikaela: { id: '', username: ' ' },
-    // rilly: { id: '', username: ' ' },
-    // virgi: { id: '', username: ' ' },
+    auwia: { id: '1851536981979000832', username: 'Auwia_JKT48' },
+    ekin: { id: '1851542302550003713', username: 'Ekin_JKT48' },
+    giaa: { id: '1851540835625836544', username: 'Giaa_JKT48' },
+    intan: { id: '1851547281943879680', username: 'N_Intan' },
+    jemima: { id: '1868647250332917760', username: 'JE_Jemima_JKT48' },
+    maira: { id: '1851541636591026176', username: 'Maira_JKT48' },
+    mikaela: { id: '1869752756137025537', username: 'M_Mikaela_JKT48' },
+    rilly: { id: '1851539180217827328', username: 'Rilly_JKT48' },
+    virgi: { id: '1851527511144120320', username: 'A_VirgiJKT48' },
+
+    // Gen 14
+    heidi: { id: '2021566914355679232', username: 'Heidi_JKT48' },
 };
