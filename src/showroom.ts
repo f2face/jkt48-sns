@@ -304,50 +304,50 @@ export const membersShowroom: Record<
     //#endregion
 
     //#region Gen 14
-    fera: {
-        roomId: 572589,
-        roomKey: 'JKT48_Fera',
-        roomName: 'Fera / フェラ (JKT48)',
+    bella: {
+        roomId: 572573,
+        roomKey: 'JKT48_Bella',
+        roomName: 'Bella / ベラ (JKT48)',
     },
     carissa: {
         roomId: 572572,
         roomKey: 'JKT48_Carissa',
         roomName: 'Carissa / カリッサ (JKT48)',
     },
-    bella: {
-        roomId: 572573,
-        roomKey: 'JKT48_Bella',
-        roomName: 'Bella / ベラ (JKT48)',
-    },
     fahira: {
         roomId: 572574,
         roomKey: 'JKT48_Fahira',
         roomName: 'Fahira / ファヒラ (JKT48)',
     },
-    rara: {
-        roomId: 572575,
-        roomKey: 'JKT48_Rara',
-        roomName: 'Rara / ララ (JKT48)',
+    fera: {
+        roomId: 572589,
+        roomKey: 'JKT48_Fera',
+        roomName: 'Fera / フェラ (JKT48)',
     },
     heidi: {
         roomId: 572591,
         roomKey: 'JKT48_Heidi',
         roomName: 'Heidi / ヘイディ (JKT48)',
     },
-    maxine: {
-        roomId: 572576,
-        roomKey: 'JKT48_Maxine',
-        roomName: 'Maxine / マキシン (JKT48)',
-    },
     jazzy: {
         roomId: 572577,
         roomKey: 'JKT48_Jazzy',
         roomName: 'Jazzy / ジャジー (JKT48)',
     },
+    maxine: {
+        roomId: 572576,
+        roomKey: 'JKT48_Maxine',
+        roomName: 'Maxine / マキシン (JKT48)',
+    },
     ralyne: {
         roomId: 572587,
         roomKey: 'JKT48_Ralyne',
         roomName: 'Ralyne / レリン (JKT48)',
+    },
+    rara: {
+        roomId: 572575,
+        roomKey: 'JKT48_Rara',
+        roomName: 'Rara / ララ (JKT48)',
     },
     sona: {
         roomId: 572579,

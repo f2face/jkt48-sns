@@ -9,6 +9,8 @@ export const officials = [
     'jkt48-cs',
 
     'jkt48-trainee',
+
+    'jkt48-u16',
 ] as const;
 
 export const members = [
@@ -74,14 +76,14 @@ export const members = [
     'virgi',
 
     // Gen 14
-    'fera',
     'carissa',
     'bella',
     'fahira',
-    'rara',
+    'fera',
     'heidi',
-    'maxine',
     'jazzy',
+    'maxine',
     'ralyne',
+    'rara',
     'sona',
 ] as const;
