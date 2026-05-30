@@ -57,7 +57,6 @@ export const membersInstagram: Record<
     alya: { id: '56089447105', username: 'jkt48.alya_' },
     anindya: { id: '56472271647', username: 'jkt48.anindya_' },
     cathy: { id: '56437909652', username: 'jkt48.cathy' },
-    chelsea: { id: '60806566287', username: 'jkt48.chelsea.d' },
     cynthia: { id: '56463179512', username: 'jkt48.cynthia' },
     daisy: { id: '56468714778', username: 'jkt48.daisy' },
     danella: { id: '56436245861', username: 'jkt48.danella' },

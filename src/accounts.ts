@@ -38,7 +38,6 @@ export const members = [
     'alya',
     'anindya',
     'cathy',
-    'chelsea',
     'cynthia',
     'daisy',
     'danella',

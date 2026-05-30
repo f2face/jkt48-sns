@@ -53,7 +53,6 @@ export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     alya: { id: '1586985330800226304', username: 'AA_AlyaJKT48' },
     anindya: { id: '1586990445854593024', username: 'AR_AnindyaJKT48' },
     cathy: { id: '1586992742093103104', username: 'N_CathyJKT48' },
-    chelsea: { id: '1587001241200390144', username: 'DC_ChelseaJKT48' },
     cynthia: { id: '1587004468524388353', username: 'Y_CynthiaJKT48' },
     daisy: { id: '1587029214170996737', username: 'Daisy_JKT48' },
     danella: { id: '1587029640623030274', username: 'Danella_JKT48' },
