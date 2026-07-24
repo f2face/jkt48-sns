@@ -210,13 +210,6 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
         defaultStreamUrl:
             'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.OHdxDVm8kOqf.m3u8',
     },
-    gendis: {
-        username: 'jkt48_gendis',
-        uuid: 'ab901d82-db49-488c-8d03-da0082ab70e2',
-        name: 'Gendis',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.pIypkyH1I3k7.m3u8',
-    },
     gracie: {
         username: 'jkt48_gracie',
         uuid: 'cae4d972-5f14-4512-9706-37c1802a0541',

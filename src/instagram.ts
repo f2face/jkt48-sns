@@ -61,7 +61,6 @@ export const membersInstagram: Record<
     daisy: { id: '56468714778', username: 'jkt48.daisy' },
     danella: { id: '56436245861', username: 'jkt48.danella' },
     elin: { id: '56084727697', username: 'jkt48.elin_' },
-    gendis: { id: '56135666678', username: 'jkt48.gendis' },
     gracie: { id: '56427487233', username: 'jkt48.gracie' },
     greesel: { id: '56428863043', username: 'jkt48.greesel' },
     michie: { id: '56513469431', username: 'jkt48.michie_' },

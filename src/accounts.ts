@@ -42,7 +42,6 @@ export const members = [
     'daisy',
     'danella',
     'elin',
-    'gendis',
     'gracie',
     'greesel',
     'michie',
