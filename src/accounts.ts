@@ -37,7 +37,6 @@ export const members = [
     // Gen 11
     'alya',
     'anindya',
-    'cathy',
     'cynthia',
     'daisy',
     'danella',

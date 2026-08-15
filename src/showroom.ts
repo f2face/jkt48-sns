@@ -130,11 +130,6 @@ export const membersShowroom: Record<
         roomKey: 'JKT48_Anindya',
         roomName: 'Anindya /アニンディア（JKT48）',
     },
-    cathy: {
-        roomId: 461454,
-        roomKey: 'JKT48_Cathy',
-        roomName: 'Cathy/キャシー（JKT48）',
-    },
     cynthia: {
         roomId: 461463,
         roomKey: 'JKT48_Cynthia',
