@@ -241,11 +241,6 @@ export const membersShowroom: Record<
     //#endregion
 
     //#region Gen 13
-    auwia: {
-        roomId: 547062,
-        roomKey: 'JKT48_Auwia',
-        roomName: 'Auwia / アウウィア (JKT48)',
-    },
     ekin: {
         roomId: 547065,
         roomKey: 'JKT48_Ekin',

@@ -81,7 +81,6 @@ export const membersInstagram: Record<
     trisha: { id: '63369176393', username: 'jkt48.trisha' },
 
     // Gen 13
-    auwia: { id: '70009098171', username: 'auwia.jkt48' },
     ekin: { id: '70344549914', username: 'ekin.jkt48' },
     giaa: { id: '70362387058', username: 'giaa.jkt48' },
     intan: { id: '70353580199', username: 'intan.jkt48' },

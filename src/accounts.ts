@@ -62,7 +62,6 @@ export const members = [
     'trisha',
 
     // Gen 13
-    'auwia',
     'ekin',
     'giaa',
     'intan',

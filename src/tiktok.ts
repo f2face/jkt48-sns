@@ -8,7 +8,6 @@ type TiktokAccount = {
 type ActiveOfficials = Extract<Officials, 'jkt48'>;
 type ActiveMembers = Exclude<
     Members,
-    | 'auwia'
     | 'ekin'
     | 'giaa'
     | 'intan'
@@ -86,7 +85,6 @@ export const membersTiktok: Record<ActiveMembers, Readonly<TiktokAccount>> = {
     trisha: { id: '7302013854274733061', username: 'jkt48.trisha' },
 
     // Gen 13
-    // auwia: { id: '', username: ' ' },
     // ekin: { id: '', username: ' ' },
     // giaa: { id: '', username: ' ' },
     // intan: { id: '', username: ' ' },

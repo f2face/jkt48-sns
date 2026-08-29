@@ -77,7 +77,6 @@ export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
     trisha: { id: '1725198003680788481', username: 'JTrisha_JKT48' },
 
     // Gen 13
-    auwia: { id: '1851536981979000832', username: 'Auwia_JKT48' },
     ekin: { id: '1851542302550003713', username: 'Ekin_JKT48' },
     giaa: { id: '1851540835625836544', username: 'Giaa_JKT48' },
     intan: { id: '1851547281943879680', username: 'N_Intan' },

@@ -328,13 +328,6 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
     //#endregion
 
     //#region Gen 13
-    auwia: {
-        username: 'jkt48_auwia',
-        uuid: 'f9500eb4-9d6d-491d-a857-40ca6f862d61',
-        name: 'Auwia',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.XliapIMZ7P2P.m3u8',
-    },
     ekin: {
         username: 'jkt48_ekin',
         uuid: '85f369d7-6525-41c0-94b8-9a56686713eb',
