@@ -54,7 +54,6 @@ export const membersInstagram: Record<
     raisha: { id: '51292071924', username: 'jkt48.raisha.s' },
 
     // Gen 11
-    alya: { id: '56089447105', username: 'jkt48.alya_' },
     anindya: { id: '56472271647', username: 'jkt48.anindya_' },
     cynthia: { id: '56463179512', username: 'jkt48.cynthia' },
     daisy: { id: '56468714778', username: 'jkt48.daisy' },

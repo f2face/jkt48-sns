@@ -161,13 +161,6 @@ export const membersIdn: Record<ActiveMembersIdn, Readonly<IdnAccount>> = {
     //#endregion
 
     //#region Gen 11
-    alya: {
-        username: 'jkt48_alya',
-        uuid: '74e76417-0353-487f-b9b7-7520c0398e87',
-        name: 'Alya',
-        defaultStreamUrl:
-            'https://4b964ca68cf1.us-east-1.playback.live-video.net/api/video/v1/us-east-1.050891932989.channel.sLZkhRvMutd4.m3u8',
-    },
     anindya: {
         username: 'jkt48_anindya',
         uuid: 'a5c72141-65a3-47be-86ef-1dc1feaab10d',

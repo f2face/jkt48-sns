@@ -120,11 +120,6 @@ export const membersShowroom: Record<
     //#endregion
 
     //#region Gen 11
-    alya: {
-        roomId: 461451,
-        roomKey: 'JKT48_Alya',
-        roomName: 'Alya /アリア（JKT48）',
-    },
     anindya: {
         roomId: 461452,
         roomKey: 'JKT48_Anindya',
