@@ -5,23 +5,13 @@ type TiktokAccount = {
     username: string;
 };
 
-type ActiveOfficials = Extract<Officials, 'jkt48'>;
+type ActiveOfficials = Extract<Officials, 'jkt48' | 'jkt48-u16'>;
 type ActiveMembers = Exclude<
     Members,
-    | 'ekin'
-    | 'giaa'
-    | 'intan'
-    | 'jemima'
-    | 'maira'
-    | 'mikaela'
-    | 'rilly'
-    | 'virgi'
     | 'fera'
     | 'carissa'
     | 'bella'
     | 'fahira'
-    | 'rara'
-    | 'heidi'
     | 'maxine'
     | 'jazzy'
     | 'ralyne'
@@ -34,6 +24,7 @@ export const officialsTiktok: Record<
 > = {
     // Official
     jkt48: { id: '6940509177513477122', username: 'jkt48.official' },
+    'jkt48-u16': { id: '7637505840803644432', username: 'jkt48.u16' },
 } as const;
 
 export const membersTiktok: Record<ActiveMembers, Readonly<TiktokAccount>> = {
@@ -84,12 +75,16 @@ export const membersTiktok: Record<ActiveMembers, Readonly<TiktokAccount>> = {
     trisha: { id: '7302013854274733061', username: 'jkt48.trisha' },
 
     // Gen 13
-    // ekin: { id: '', username: ' ' },
-    // giaa: { id: '', username: ' ' },
-    // intan: { id: '', username: ' ' },
-    // jemima: { id: '', username: ' ' },
-    // maira: { id: '', username: ' ' },
-    // mikaela: { id: '', username: ' ' },
-    // rilly: { id: '', username: ' ' },
-    // virgi: { id: '', username: ' ' },
+    ekin: { id: '7431258232918836229', username: 'jkt48.ekin' },
+    giaa: { id: '7518045034219947026', username: 'giaa.jkt48' },
+    intan: { id: '7431260383807259654', username: 'jkt48.intan' },
+    jemima: { id: '7431259048459174918', username: 'jkt48.jemima' },
+    maira: { id: '7431234265940395014', username: 'jkt48.maira' },
+    mikaela: { id: '7431259593954018309', username: 'jkt48.mikaela' },
+    rilly: { id: '7431208632173609989', username: 'jkt48.rilly' },
+    virgi: { id: '7431206717478159366', username: 'jkt48.virgi' },
+
+    // Gen 14
+    heidi: { id: '7637508622705460242', username: 'jkt48.heidi__' },
+    rara: { id: '7605597284894737416', username: 'jkt48.rara_' },
 } as const;

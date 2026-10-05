@@ -15,7 +15,6 @@ type ActiveMembers = Exclude<
     | 'carissa'
     | 'bella'
     | 'fahira'
-    | 'rara'
     | 'maxine'
     | 'jazzy'
     | 'ralyne'
@@ -87,4 +86,5 @@ export const membersTwitter: Record<ActiveMembers, TwitterAccount> = {
 
     // Gen 14
     heidi: { id: '2021566914355679232', username: 'Heidi_JKT48' },
+    rara: { id: '2021565442377371648', username: 'FA_RaraJKT48' },
 };

@@ -12,7 +12,6 @@ type ActiveMembers = Exclude<
     | 'carissa'
     | 'bella'
     | 'fahira'
-    | 'rara'
     | 'maxine'
     | 'jazzy'
     | 'ralyne'
@@ -91,4 +90,5 @@ export const membersInstagram: Record<
 
     // Gen 14
     heidi: { id: '48746614691', username: 'heidi.jkt48' },
+    rara: { id: '80529150539', username: 'rara.jkt48' },
 } as const;
